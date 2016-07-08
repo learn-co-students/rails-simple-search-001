@@ -1,0 +1,5 @@
+<h2>Search for a Word!</h2>
+<%= form_tag search_path, method: :get do %>
+	<%= text_field_tag 'keyword' %>
+	<%= submit_tag 'Search', class: 'btn' %>
+<% end %>
